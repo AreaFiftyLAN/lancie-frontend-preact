@@ -1,0 +1,13 @@
+// NOTE: this file is soley for the editor, the actual build process is not affected by it.
+
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"jsxFactory": "h",
+		"baseUrl": "./src",
+		"paths": {
+			"~*": ["./*"]
+		}
+	},
+	"include": ["./src/**/*"]
+}
