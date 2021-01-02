@@ -1,13 +1,17 @@
-// NOTE: this file is soley for the editor, the actual build process is not affected by it.
-
 {
-	"compilerOptions": {
-		"jsx": "react",
-		"jsxFactory": "h",
-		"baseUrl": "./src",
-		"paths": {
-			"~*": ["./*"]
-		}
-	},
-	"include": ["./src/**/*"]
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "es6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "allowJs": false,
+    "baseUrl": "./src",
+    "paths": {
+      "~*": ["./*"]
+    }
+  },
+  "include": ["./src/**/*"]
 }

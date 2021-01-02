@@ -1,0 +1,26 @@
+@import "teenyui/dist/bundle.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  --primary-color: #1a2b43;
+  --primary-color-highlight: #0d1e36;
+  --primary-color-text: #f3ffff;
+  --secondary-color: #ffe574;
+  --secondary-color-highlight: #e6cc5b;
+  --secondary-color-text: #4d3300;
+  --text-color: #fff;
+  --text-color-highlight: #ffe574;
+  --text-color-inverse: #000;
+  --text-color-inverse-highlight: #eaf4f4;
+  --background: #0d1e36;
+  --background-secondary: #1a2b43;
+  --background-border: #273850;
+
+  --font: "Open Sans", Arial, Helvetica, sans-serif;
+}
