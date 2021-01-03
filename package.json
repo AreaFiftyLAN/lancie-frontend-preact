@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "preact": "^10.4.8",
-    "teenyui": "^0.1.4"
+    "teenyui": "^1.1.1"
   },
   "devDependencies": {
     "@types/node": "^14.11.1",

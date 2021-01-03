@@ -11,8 +11,13 @@ const Main: FunctionalComponent = () => (
           // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
           image={require("./assets/banner.jpg")}
           imageFallback="linear-gradient(to bottom right, #1a2b43, #01122A)"
+          imageLabel="AreaFiftyLAN Event"
         >
-          <h1>AreaFiftyLAN</h1>
+          <img
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+            src={require("./assets/logo.png")}
+            alt="AreaFiftyLAN Logo"
+          />
           <h5>The biggest gaming event in The Netherlands!</h5>
           <div>
             <Button>Button 1</Button>
@@ -20,7 +25,7 @@ const Main: FunctionalComponent = () => (
           </div>
         </Hero>
         <Card>
-          <h2>Hello LAN!</h2>
+          <h1>Hello LAN!</h1>
           <p>
             This is some text, with a <a href="https://dany.dev">link</a>.
           </p>
